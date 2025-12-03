@@ -33,13 +33,3 @@ RUN chmod -R 777 /var/www/html/storage \
 
 # 8. Kembali ke user web server
 USER www-data
-```
-
-### Apa yang harus dilakukan setelah mengubah file ini?
-
-1.  **Simpan** file `Dockerfile`.
-2.  **Push** ke GitHub:
-    ```bash
-    git add .
-    git commit -m "Fix storage link in Dockerfile"
-    git push origin main
